@@ -8,8 +8,10 @@
     <title>Luna Store</title>
     <!--FONTAWESOME-->
     <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css>
-    <!--ESTILOCSS-->
+    <!--ANIMACION CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../styles/style.css">
+    
 </head>
 
 <body>
@@ -39,7 +41,7 @@
     <main>
 
 
-        <h1 class="text-center">¡FESTEJEMOS JUNTOS! 12 CUOTAS SIN INTERÉS*</h1>
+        <h1 class="animate__animated animate__flash" class="text-center" >¡FESTEJEMOS JUNTOS! 12 CUOTAS SIN INTERÉS*</h1>
         <a title="COMPRAR" href="../views/primavera-verano.html"><img src="../public/city_urban.png" alt="Comprar" width="100%" height="auto"> </a>
 
 
@@ -48,20 +50,20 @@
         
         <div class="contenedor">
             <div class="publicidad">
-            <img src="../public/JEANS-miri-card.png" alt="">
+            <img class="wow animate__animated animate__bounce" class="animate__flash" src="../public/JEANS-miri-card.png" alt="">
             </div>
             
             <div class="publicidad">
-            <img src="../public/REMERA-fran-card.png" alt="">
+            <img  class="wow animate__animated animate__bounce" src="../public/REMERA-fran-card.png" alt="">
              </div>
 
             <div class="publicidad">
-            <img src="../public/Tunica-alice-cardVESTIDOS.png" alt="">
+            <img class="wow animate__animated animate__bounce" src="../public/Tunica-alice-cardVESTIDOS.png" alt="">
             </div>
 
 
             <div class="publicidad">
-            <img src="../public/urban.png" alt="">
+            <img class="wow animate__animated animate__bounce" src="../public/urban.png" alt="">
         </div>
         </div>
     </aside>
@@ -83,6 +85,12 @@
             &copy;2012 Luna Store. Todos los derechos reservados.
 
     </footer>
+
+    <!--WOW JS-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 
