@@ -1,6 +1,6 @@
 /*HeaderLogo*/
 
-/* DISPOSITIVO MOBILE */
+/* DISPOSITIVO desktop */
 
 @media screen and (max-width:1024px) {
 
@@ -116,6 +116,8 @@ h2 {
     background-color: rgb(199, 187, 17);
 }
 
+
+/*---FOOTER---*/
 
 .footer {
     text-align: center;
