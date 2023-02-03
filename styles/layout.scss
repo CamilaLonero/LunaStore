@@ -1,0 +1,230 @@
+/*---BODY---*/
+
+
+
+body {
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #000000;
+        border: 4px solid black;
+        grid-template-columns: repeat(3, 1fr);
+
+        &_header {
+            grid-area: header;
+            text-align: center;
+     }
+     
+
+    }
+
+ header {
+        grid-area: header;
+        text-align: center;
+ }
+    
+ main {
+        grid-area: main;
+ }
+    
+ footer {
+        grid-area: footer;
+    
+        clear: both;
+}
+
+
+/*--BORDES BODY--*/
+
+.border {
+    border: 4px solid black;
+    background-color: darkgray;
+}
+
+
+
+/*--MAIN--*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+
+    &_section-title {
+        background-color: rgb(199, 187, 17);
+        text-align: center;
+    }
+
+    &_card-body {
+        color: rgb(0, 0, 0);
+        background-color: rgb(206, 203, 203);
+    }
+
+    &_carousel {
+        width: 80%;
+        display: inline;
+    }
+
+}
+
+.title-h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+/*--NUEVA TEMPORADA--*/
+
+.nueva-temporada {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding: 150px;
+
+    &_box {
+        flex: 1;
+        overflow: hidden;
+        margin: 8px;
+        line-height: 0;
+        box-shadow: 0 20px 30px rgb(0, 0, 0, 0.20);
+        transition: all 600ms;
+        width: 100%;
+    }
+
+    $_img {
+        width: 100%;
+        height: calc (100% - 10vh);
+        object-fit: cover;
+        transition: height 3s;
+    }
+    
+    &_box span {
+        background-color: rgb(199, 187, 17);
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        height: 10vh;
+        line-height: 2.6;
+    }
+
+    &_box:hover {
+        flex: 30%
+    }
+
+    &_box:hover img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+.imagen-temporada{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.contenedor {
+    display: flex;
+
+}
+
+
+.publicidad img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 4%;
+
+}
+
+
+/*----Carrito----*/
+
+.h1_carrito {
+    text-align: center;
+    background-color: rgb(199, 187, 17);
+}
+
+
+.ul a {
+    background: rgb(199, 187, 17);
+}
+
+
+.carrito {
+    color: white;
+    text-align: center;
+}
+
+.ComprasCarrito {
+    text-align: center;
+
+    &_p:hover {
+        transform: scale(1.1);
+        background-color: rgb(248, 248, 248);
+    
+    }
+
+    &_a {
+        color: black;
+    }
+    
+}
+
+/*------Empresa-----*/
+
+.tituloEmpresa {
+    text-align: center;
+    border: 2px;
+
+}
+
+.parrafoEmpresa {
+    text-align: center;
+    color: #ffffff;
+    border: 2px 2px;
+}
+
+
+/*----Contacto----*/
+
+.tituloUno {
+    font-size: 20px;
+}
+
+.tituloDos {
+    text-align: center;
+    font-size: 18px;
+}
+
+.parrafoContacto {
+    color: #ffffff;
+    text-align: center;
+}
+
+.formulario {
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/*----Preguntas frecuentes----*/
+
+.preguntasFrecuentes {
+    color: #ffffff;
+    text-align: center;
+}
+
+.lista {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+

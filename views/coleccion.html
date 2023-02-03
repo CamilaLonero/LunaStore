@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="remeras, vestidos, conjuntos">
-  <meta name="description" content="Envío gratis en compras superiores a $15000. Ingresa a nuestra web y conocé la colección. Comprá y Recibí en Casa o Retirá en la sucursal. Tipos: Vestidos, Remeras y Tops, Conjuntos, Sandalias, Accesorios" >
+  <meta name="description"
+    content="Envío gratis en compras superiores a $15000. Ingresa a nuestra web y conocé la colección. Comprá y Recibí en Casa o Retirá en la sucursal. Tipos: Vestidos, Remeras y Tops, Conjuntos, Sandalias, Accesorios">
   <title>Colección Luna Store</title>
   <!-- CDN BOOTSTRAP-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,10 +18,11 @@
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
- <!--Google fonts-->
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
   <!--CSS-->
   <link rel="stylesheet" href="../styles/style.css">
 
@@ -55,7 +57,7 @@
             </li>
 
 
-            
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                 aria-expanded="false">Colección</a>
@@ -83,154 +85,168 @@
 
   <main>
     <section class="container">
-        
-     
-      <h2 class="section-title" > TIENDA PRIMAVERA-VERANO </h2>
+
+      <div class="title-h1">
+        <h2> TIENDA PRIMAVERA-VERANO </h2>
+      </div>
       <section class="d-flex  justify-content-center">
-      
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../public/modeloscarousel.png" class="d-block w-100" alt="modelos" width="600px" height="600px" class="img-fluid">
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../public/modeloscarousel.png" class="d-block w-100" alt="modelos" width="600px" height="600px"
+                class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="../public/sandalias.png" class="d-block w-100" alt="sandalias" width="600px" height="600px"
+                class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="../public/ropacarousel.png" class="d-block w-100" alt="ropa" width="600px" height="600px"
+                class="img-fluid">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="../public/sandalias.png" class="d-block w-100" alt="sandalias" width="600px" height="600px" class="img-fluid">
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+      </section>
+
+      <!-- BOOTSTRAP CARD-->
+      <div class="cards-coleccion">
+        <div class="card text-bg-warning mb-3 align-items:center display:inline" style="width: 18rem;">
+
+          <img src="../public/urban.png" alt="urbans" class="card-img-top" width="auto" height="auto" class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Urban</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:27.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
           </div>
-          <div class="carousel-item">
-            <img src="../public/ropacarousel.png" class="d-block w-100" alt="ropa" width="600px" height="600px" class="img-fluid">
+        </div>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/jean.png" alt="ropa" class="card-img-top" width="auto" height="auto" class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Jeans</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:27.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
           </div>
         </div>
-    
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
 
-      </div>
-    </section>
-
-      <!-- BOOTSTRAP CARD-->
-      
-      <div class="card text-bg-warning mb-3 align-items:center display:inline" style="width: 18rem;">
-        
-        <img src="../public/urban.png" alt="urbans" class="card-img-top"   width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Urban</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:27.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/Tunica-alice-card.png" alt="ropaone" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Vestido</h5>
+            <p class="card-text">Talles disponibles: M - L - XL Precio:15.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/jean.png" alt="ropa" class="card-img-top"  width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Jeans</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:27.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
-        </div>
-      </div>
 
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/Tunica-alice-card.png" alt="ropaone" class="card-img-top"  width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Vestido</h5>
-          <p class="card-text">Talles disponibles: M - L - XL Precio:15.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/pollera.png" alt="ropapoll" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Pollera</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
 
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/pollera.png" alt="ropapoll" class="card-img-top"  width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Pollera</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/PANTALONSASTRERO.png" alt="ropapp" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Pantalon sastrero</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:8.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
-
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/PANTALONSASTRERO.png" alt="ropapp" class="card-img-top"  width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Pantalon sastrero</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:8.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
-        </div>
-      </div>
 
 
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/conjunto.png" alt="ropap" class="card-img-top"   width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Conjunto</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:27.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/conjunto.png" alt="ropap" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:27.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/vestido-Mary.png" alt="ropavone" class="card-img-top" width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Vestido</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/vestido-Mary.png" alt="ropavone" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Vestido</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
 
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/jean.png" alt="ropajj" class="card-img-top"   width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Jeans</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/jean.png" alt="ropajj" class="card-img-top" width="auto" height="auto" class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Jeans</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
 
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/vestido-lore-card.png"alt="ropaoj" class="card-img-top"   width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Vestido</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/vestido-lore-card.png" alt="ropaoj" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Vestido</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
 
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/JEANS-miri-card.png" alt="ropaj" class="card-img-top"   width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Jeans</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/JEANS-miri-card.png" alt="ropaj" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Jeans</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
 
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/vestido-lore-card.png" alt="ropav" class="card-img-top"  width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Vestido</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/vestido-lore-card.png" alt="ropav" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Vestido</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
-      </div>
 
-      <!-- BOOTSTRAP CARD-->
-      <div class="card text-bg-warning mb-3" style="width: 18rem;">
-        <img src="../public/conjunto.png" alt="ropac" class="card-img-top" width="auto" height="auto" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Conjunto</h5>
-          <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
-          <a href="#" class="btn btn-light">Añadir al carrito</a>
+        <!-- BOOTSTRAP CARD-->
+        <div class="card text-bg-warning mb-3" style="width: 18rem;">
+          <img src="../public/conjunto.png" alt="ropac" class="card-img-top" width="auto" height="auto"
+            class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto</h5>
+            <p class="card-text">Talles disponibles: S - M - L Precio:14.000$</p>
+            <a href="#" class="btn btn-light">Añadir al carrito</a>
+          </div>
         </div>
       </div>
 
@@ -240,48 +256,52 @@
   </main>
 
   <aside>
-        
+
     <div class="contenedor">
-        <div class="publicidad">
-        <img class="wow animate__animated animate__bounce" class="animate__flash" src="../public/JEANS-miri-card.png" alt="" width="auto" height="auto" class="img-fluid">
-        </div>
-        
-        <div class="publicidad">
-        <img  class="wow animate__animated animate__bounce" src="../public/REMERA-fran-card.png" alt="" width="auto" height="auto" class="img-fluid">
-         </div>
+      <div class="publicidad">
+        <img class="wow animate__animated animate__bounce" class="animate__flash" src="../public/JEANS-miri-card.png"
+          alt="" width="auto" height="auto" class="img-fluid">
+      </div>
 
-        <div class="publicidad">
-        <img class="wow animate__animated animate__bounce" src="../public/Tunica-alice-cardvestidos.png" alt="" width="auto" height="auto" class="img-fluid">
-        </div>
+      <div class="publicidad">
+        <img class="wow animate__animated animate__bounce" src="../public/REMERA-fran-card.png" alt="" width="auto"
+          height="auto" class="img-fluid">
+      </div>
+
+      <div class="publicidad">
+        <img class="wow animate__animated animate__bounce" src="../public/Tunica-alice-cardvestidos.png" alt=""
+          width="auto" height="auto" class="img-fluid">
+      </div>
 
 
-        <div class="publicidad">
-        <img class="wow animate__animated animate__bounce" src="../public/urban.png" alt="" width="auto" height="auto" class="img-fluid">
+      <div class="publicidad">
+        <img class="wow animate__animated animate__bounce" src="../public/urban.png" alt="" width="auto" height="auto"
+          class="img-fluid">
+      </div>
     </div>
-    </div>
-</aside>
+  </aside>
 
 
 
 
- 
 
-    <footer class=text-center>
 
-      <div class="empresa_politicas">
-          <a class="preguntasfrecuentes.html" href="./preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a>
-          <br>
-          <br>
-          <div class="redes_sociales">
-              <i class="fa-brands fa-whatsapp fa-2x"></i>
-              <i class="fa-brands fa-facebook fa-2x"></i>
-              <i class="fa-brands fa-instagram fa-2x"></i>
-          </div>
-          <br>
-          &copy;2012 Luna Store. Todos los derechos reservados.
+  <footer class=text-center>
+
+    <div class="empresa_politicas">
+      <a class="preguntasfrecuentes.html" href="./preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a>
+      <br>
+      <br>
+      <div class="redes_sociales">
+        <i class="fa-brands fa-whatsapp fa-2x"></i>
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        <i class="fa-brands fa-instagram fa-2x"></i>
+      </div>
+      <br>
+      &copy;2012 Luna Store. Todos los derechos reservados.
 
   </footer>
- 
+
 
 
 
@@ -299,22 +319,21 @@
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
-                <img
-                  src="../public/conjunto.png" alt="" width="150px" height="200px">
+                <img src="../public/conjunto.png" alt="" width="150px" height="200px">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">Vestido Nina</h5>
                   <p class="card-text">Talle disponible S - M - L</p>
                   <p> Precio: 14.000$</p>
-                  Cantidad: 
+                  Cantidad:
                   <button class="btn btn-light">
                     <i class="fa-solid fa-minus"></i>
                   </button>
-                         1
+                  1
                   <button class="btn btn-light">
                     <i class="fa-regular fa-plus"></i>
-                    
+
                   </button>
 
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>

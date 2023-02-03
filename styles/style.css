@@ -108,42 +108,6 @@ a:visited {
     color: rgb(199, 187, 17);
 }
 
-/*--Main--*/
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-
-h1 {
-    text-align: center;
-    background-color: rgb(199, 187, 17);
-}
-
-
-h2 {
-    background-color: rgb(199, 187, 17);
-}
-
-.section-title {
-    background-color: rgb(199, 187, 17);
-    text-align: center;
-}
-
-.card-body {
-    color: rgb(0, 0, 0);
-    background-color: rgb(206, 203, 203);
-
-
-}
-
-.carousel {
-    width: 80%;
-    display: inline;
-
-}
 
 
 /*--FOOTER--*/
@@ -169,6 +133,11 @@ h2 {
 
 
 /*--Primavera-verano--*/
+
+.title-h1{
+    text-align: center;
+    color: #ffffff;
+}
 
 .body-primaveraverano {
     width: 100%;
@@ -209,7 +178,7 @@ h2 {
     line-height: 0;
     box-shadow: 0 20px 30px rgb(0, 0, 0, 0.20);
     transition: all 600ms;
-    
+    width: 100%;
 }
 
 .box img {
@@ -230,7 +199,7 @@ h2 {
 
 
 .box:hover {
-    flex: 50%
+    flex: 30%
 }
 
 .box:hover img {
@@ -293,7 +262,13 @@ h2 {
     color: black;
 }
 
+/*--COLECCION--*/
 
+.card-coleccion{
+    border:0;
+    b
+
+}
 /*------Empresa-----*/
 
 .tituloEmpresa {
