@@ -1,0 +1,192 @@
+/*---BODY---*/
+/* VALIDACION */
+body {
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #000000;
+  border: 4px solid black;
+  grid-template-columns: repeat(3, 1fr);
+}
+body_header {
+  grid-area: header;
+  text-align: center;
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  clear: both;
+}
+
+/*--BORDES BODY--*/
+.border {
+  border: 4px solid black;
+  background-color: #FFFFFF;
+}
+
+/*--MAIN--*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.container_section-title {
+  background-color: #D2DC12;
+  text-align: center;
+}
+.container_card-body {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.container_carousel {
+  width: 80%;
+  display: inline;
+}
+
+.title-h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*--NUEVA TEMPORADA--*/
+.nueva-temporada {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  padding: 150px;
+}
+.nueva-temporada_box {
+  flex: 1;
+  overflow: hidden;
+  margin: 8px;
+  line-height: 0;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  transition: all 600ms;
+  width: 100%;
+}
+.nueva-temporada_img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: height 3s;
+}
+.nueva-temporada_box span {
+  background-color: #D2DC12;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+.nueva-temporada_box:hover {
+  flex: 30%;
+}
+.nueva-temporada_box:hover img {
+  width: 100%;
+  height: 100%;
+}
+
+.imagen-temporada {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.contenedor {
+  display: flex;
+}
+
+.publicidad img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 4%;
+}
+
+/*----Carrito----*/
+.h1_carrito {
+  text-align: center;
+  background-color: #D2DC12;
+}
+
+.ul a {
+  background: #D2DC12;
+}
+
+.carrito {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.ComprasCarrito {
+  text-align: center;
+}
+.ComprasCarrito_p:hover {
+  transform: scale(1.1);
+  background-color: #FFFFFF;
+}
+.ComprasCarrito_a {
+  color: #000000;
+}
+
+/*--COLECCION--*/
+.card-coleccion {
+  border: 0;
+}
+
+/*------Empresa-----*/
+.tituloEmpresa {
+  text-align: center;
+  border: 2px;
+}
+
+.parrafoEmpresa {
+  text-align: center;
+  color: #FFFFFF;
+  border: 2px 2px;
+}
+
+/*----Contacto----*/
+.tituloUno {
+  font-size: 20px;
+}
+
+.tituloDos {
+  text-align: center;
+  font-size: 18px;
+}
+
+.parrafoContacto {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.formulario {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+}
+
+/*----Preguntas frecuentes----*/
+.preguntasFrecuentes {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.lista {
+  text-decoration: none;
+  list-style-type: none;
+}/*# sourceMappingURL=layout.css.map */

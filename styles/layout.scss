@@ -1,8 +1,11 @@
 /*---BODY---*/
 
+/* VALIDACION */
+
 $coloruno: #D2DC12;
 $colordos: #000000;
 $colortres: #FFFFFF;
+
 
 
 body {
@@ -96,9 +99,9 @@ body {
         width: 100%;
     }
 
-    $_box img {
+    &_img {
         width: 100%;
-        height: calc (100% - 10vh);
+        height: 100% ;
         object-fit: cover;
         transition: height 3s;
     }
