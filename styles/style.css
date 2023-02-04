@@ -2,7 +2,11 @@
 
 /*--BODY--*/
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #000000;
@@ -250,12 +254,7 @@ a:visited {
 
 .ComprasCarrito {
     text-align: center;
-}
-
-.ComprasCarrito p:hover {
-    transform: scale(1.1);
-    background-color: rgb(248, 248, 248);
-
+    background-color: rgb(248, 245, 57);
 }
 
 .ComprasCarrito a {
@@ -269,6 +268,27 @@ a:visited {
     
 
 }
+/* CARDS */
+
+.card2{
+    background-color:  rgb(252, 252, 252);
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    display: flex;    
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.car2:hover{
+    box-shadow: 5px 1px 10px rgb(0,0,0,0.2);
+}
+
+    
+
 /*------Empresa-----*/
 
 .tituloEmpresa {
@@ -287,13 +307,15 @@ a:visited {
 
 /*----Contacto----*/
 
-.tituloUno {
-    font-size: 20px;
+.titulo h1 {
+   
+    color: #ffffff;
+    text-align: center;
 }
 
-.tituloDos {
+.titulo h2 {
     text-align: center;
-    font-size: 18px;
+   color: #ffffff;
 }
 
 .parrafoContacto {
@@ -322,7 +344,7 @@ a:visited {
 
 /*--VISTA MOBILE--*/
 
-@media only screen and(min-width:768px) {
+@media only screen and(min-width:720px) {
 
     .gridContainer {
         display: grid;
@@ -354,6 +376,6 @@ footer {
 
     body {
 
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns:auto auto auto ;
     }
 }
